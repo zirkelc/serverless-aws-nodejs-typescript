@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    // "**/node_modules": true
+  },
+  // Please also note that if you use ESLint as your default formatter you should turn off editor.formatOnSave when you have turned on editor.codeActionsOnSave.
+  // Otherwise you file gets fixed twice which in unnecessary. It is recommended to use the editor.codeActionsOnSave feature since it allows for better configurability.
+  // https://github.com/microsoft/vscode-eslint/blob/b974cef5a96e21136924cb560db99bd553c61682/README.md#settings-options
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+}
